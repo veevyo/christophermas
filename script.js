@@ -1,4 +1,5 @@
 function displayAffirmation() {
+
     document.getElementById("display").innerHTML = "";
 
     var p = document.createElement("h2");
@@ -37,13 +38,15 @@ function displayAffirmation() {
     document.getElementById("display").style.display = "flex";
 }
 function checkPassword() {
+    isPasswordChecked = true;
+
     submittedPassword = document.getElementById("password").value;
     var p = document.createElement("p");
     p.style.color = "red";
     p.innerText = "wrong password..."
 
     if (submittedPassword == 'Md3"v8z7Zs#W') {
-        window.location.href = window.location.pathname.replace("/index.html", "") + "/affirmations.html"
+        window.location.href = window.location.pathname.replace("/index.html", "") + "/6Bb05WUOsFdl.html"
     }
     else {
         document.getElementById("index").appendChild(p)
