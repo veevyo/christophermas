@@ -44,9 +44,9 @@ section {
     box-shadow: 7px 7px #3e3e3e;
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     section {
-    background-color: transparent;
+      background-color: transparent;
       width: 100%;
       margin: 0;
       padding: 0.5em;
