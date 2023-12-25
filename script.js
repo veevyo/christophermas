@@ -43,7 +43,7 @@ function checkPassword() {
     p.innerText = "wrong password..."
 
     if (submittedPassword == 'Md3"v8z7Zs#W') {
-        window.location.href = window.location.pathname.replace("/index.html", "/affirmations.html");
+        window.location.href = window.location.pathname.replace("/index.html", "") + "/affirmations.html"
     }
     else {
         document.getElementById("index").appendChild(p)
